@@ -1,0 +1,62 @@
+** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand { /* Restaurant name */
+  color: #557c3e;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+  
+  text-align: left;
+}
+
+.jumbotron h1 {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+
+.jumbotron {
+  background-color: #fff;
+}
+
+.jumbotron div {
+  background-color: green;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 1000px;
+
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+ #collapsable-nav a { /* Collapsed nav menu text */
+    font-color: purple;
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+ #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: green;
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+/**************extra small devices only *********/
+@media (max-width: 767px) {
+}
