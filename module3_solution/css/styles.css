@@ -1,62 +1,44 @@
-** HEADER **/
+
+/** HEADER **/
 #header-nav {
   background-color: #f6b319;
   border-radius: 0;
   border: 0;
 }
-.navbar-brand {
-  padding-top: 25px;
-}
-
-.navbar-brand { /* Restaurant name */
-  color: #557c3e;
-  text-transform: uppercase;
-  font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 20px;
-  
-  text-align: left;
-}
-
-.jumbotron h1 {
+#Chicken-Grid h2 {
   text-align: center;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 0px;
+
+}
+
+#Chicken-Grid {
+  background-color: yellow;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 50px;
   padding-top: 0px;
   padding-bottom: 50px;
 }
 
-.jumbotron {
-  background-color: #fff;
-}
-
-.jumbotron div {
+#Chicken-Grid div {
   background-color: green;
   margin-left: 20px;
   margin-right: 20px;
   height: 1000px;
-
 }
-
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
-
 /********** Large devices only **********/
 @media (min-width: 1200px) {
- #collapsable-nav a { /* Collapsed nav menu text */
-    font-color: purple;
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
- #collapsable-nav a { /* Collapsed nav menu text */
-    font-size: green;
+}
+
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-
 }
 /**************extra small devices only *********/
 @media (max-width: 767px) {
-}
+	#collapsable-nav {
+	background-color: yellow; }}
